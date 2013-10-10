@@ -1,12 +1,5 @@
 Glug::Application.routes.draw do
   
-  # get "notifications/index"
-  # get "notifications/show"
-  # get "notifications/new"
-  # get "notifications/edit"
-  # get "notifications/create"
-  # get "notifications/update"
-  resources :notifications
   match 'purpose' => 'sessions#purpose',via: :get
   match 'learn' => 'sessions#learn', via: :get
   match 'downloads' => 'sessions#downloads', via: :get
