@@ -1,0 +1,12 @@
+{
+  "name": "glug",
+  "description": "website for GNU/Linux Users' Group NIT Durgapur",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "latest",
+    "socket.io": "latest",
+    "redis": "latest"
+  },
+  "author": "Gopesh Tulsyan"
+}
